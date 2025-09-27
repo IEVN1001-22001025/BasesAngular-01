@@ -1,0 +1,17 @@
+<h2>Cinépolis - Compra de Boletos</h2>
+
+<p>Nombre:</p>
+<input type="text" [(ngModel)]="nombre">
+
+<p>Cantidad de compradores:</p>
+<input type="number" [(ngModel)]="cantidadCompradores">
+
+<p>Cantidad de boletas:</p>
+<input type="number" [(ngModel)]="cantidadBoletas">
+
+<p>¿Tienes tarjeta CINECO?</p>
+<label><input type="radio" [(ngModel)]="tarjeta" value="si"> Sí</label>
+<label><input type="radio" [(ngModel)]="tarjeta" value="no"> No</label>
+
+<br><br>
+<button (click)="procesar()">Procesar</button>

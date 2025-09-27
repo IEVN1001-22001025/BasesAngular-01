@@ -7,13 +7,17 @@ import { HeroesListComponent } from './heroes/heroes-list/heroes-list.component'
 import { FormsModule } from '@angular/forms';
 import { HoeroesFilterPipe } from './heroes/hoeroes-filter.pipe';
 import { OperasBasComponent } from './formularios/operas-bas/operas-bas.component';
+import { CinepolisComponent } from './formularios/cinepolis/cinepolis.component';
+import { ResistenciasComponent } from './formularios/resistencias/resistencias.component';
 
 @NgModule({ //decorador
   declarations: [
     AppComponent,
     HeroesListComponent,
     HoeroesFilterPipe,
-    OperasBasComponent
+    OperasBasComponent,
+    CinepolisComponent,
+    ResistenciasComponent
   ],
   imports: [
     BrowserModule,
