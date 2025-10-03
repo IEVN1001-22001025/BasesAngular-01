@@ -1,1 +1,214 @@
-<p>resistencias works!</p>
+<div class="row pt-5">
+
+  <!-- 1 -->
+  <div class="col-md-2">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>1era. banda</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th><input type="radio" name="b1" [value]="0" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: black; color: white;">0</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b1" [value]="1" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: rgb(105, 77, 40); color: white;">1</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b1" [value]="2" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: red; color: white;">2</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b1" [value]="3" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: orangered; color: white;">3</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b1" [value]="4" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: yellow; color: white;">4</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b1" [value]="5" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: green; color: white;">5</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b1" [value]="6" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: blue; color: white;">6</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b1" [value]="7" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: purple; color: white;">7</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b1" [value]="8" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: gray; color: white;">8</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b1" [value]="9" [(ngModel)]="banda1"></th>
+          <td class="text-center" style="background-color: gainsboro; color: white;">9</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 2 -->
+  <div class="col-md-2">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>2da. Banda</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th><input type="radio" name="b2" [value]="0" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color: black; color: white;">0</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b2" [value]="1" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color:rgb(105, 77, 40); color: white;">1</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b2" [value]="2" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color: red; color: white;">2</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b2" [value]="3" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color: orangered; color: white;">3</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b2" [value]="4" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color: yellow; color: white;">4</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b2" [value]="5" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color: green; color: white;">5</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b2" [value]="6" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color: blue; color: white;">6</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b2" [value]="7" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color: purple; color: white;">7</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b2" [value]="8" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color: gray; color: white;">8</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="b2" [value]="9" [(ngModel)]="banda2"></th>
+          <td class="text-center" style="background-color: gainsboro; color: white;">9</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 3-->
+  <div class="col-md-2">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>3ra. Banda Multiplicador</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th><input type="radio" name="m" [value]="1" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: black; color: white;">x1</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="m" [value]="10" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: rgb(105, 77, 40); color: white;">x10</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="m" [value]="100" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: red; color: white;">x100</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="m" [value]="1000" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: orangered; color: white;">x1000</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="m" [value]="10000" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: yellow; color: white;">x10000</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="m" [value]="100000" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: green; color: white;">x100000</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="m" [value]="1000000" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: blue; color: white;">x1000000</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="m" [value]="10000000" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: purple; color: white;">x10000000</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="m" [value]="100000000" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: gray; color: white;">x100000000</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="m" [value]="1000000000" [(ngModel)]="multi"></th>
+          <td class="text-center" style="background-color: gainsboro; color: white;">x1000000000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Tol-->
+<div class="row pt-5">
+  <div class="col-md-2">
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+          <th><input type="radio" name="t" [value]="5" [(ngModel)]="tol"></th>
+          <td class="text-center" style="background-color: rgb(169, 145, 8); color: white;">Dorado 5%</td>
+        </tr>
+        <tr>
+          <th><input type="radio" name="t" [value]="10" [(ngModel)]="tol"></th>
+          <td class="text-center" style="background-color: rgba(135, 134, 134, 0.774); color: white;">Plateado 10%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Resultado -->
+  <div class="col-md-10 d-flex align-items-start">
+    <table class="table table-bordered text-center flex-grow-1">
+      <thead>
+        <tr>
+          <th style="white-space: nowrap;">Color1</th>
+          <th style="white-space: nowrap;">Color2</th>
+          <th style="white-space: nowrap;">Color3</th>
+          <th style="white-space: nowrap;">Tolerancia</th>
+          <th style="white-space: nowrap;">Valor</th>
+          <th style="white-space: nowrap;">Valor máximo</th>
+          <th style="white-space: nowrap;">Valor mínimo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td [style.backgroundColor]="color2Bg" style="color: white;">{{ color2 }}</td>
+          <td [style.backgroundColor]="color1Bg" style="color: white;">{{ color1 }}</td>
+          <td [style.backgroundColor]="color3Bg" style="color: white;">{{ color3 }}</td>
+          <td  [style.backgroundColor]="tol == 5 ? 'gold' : 'silver'" style="color: white;">{{ tolTexto }}</td>
+          <td>{{ valorTexto }}</td>
+          <td>{{ valorMax }}</td>
+          <td>{{ valorMin }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="ms-3">
+      <button type="button" class="btn btn-primary" (click)="calcular()">Calcular</button>
+    </div>
+  </div>
+</div>

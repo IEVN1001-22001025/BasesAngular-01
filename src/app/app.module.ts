@@ -9,6 +9,7 @@ import { HoeroesFilterPipe } from './heroes/hoeroes-filter.pipe';
 import { OperasBasComponent } from './formularios/operas-bas/operas-bas.component';
 import { CinepolisComponent } from './formularios/cinepolis/cinepolis.component';
 import { ResistenciasComponent } from './formularios/resistencias/resistencias.component';
+import { DistanciasComponent } from './distancias/distancias.component';
 
 @NgModule({ //decorador
   declarations: [
@@ -17,7 +18,8 @@ import { ResistenciasComponent } from './formularios/resistencias/resistencias.c
     HoeroesFilterPipe,
     OperasBasComponent,
     CinepolisComponent,
-    ResistenciasComponent
+    ResistenciasComponent,
+    DistanciasComponent
   ],
   imports: [
     BrowserModule,
